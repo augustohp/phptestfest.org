@@ -1,6 +1,5 @@
 ---
 layout: base
-lang: en
 summary: >
     Become a PHP core contributor! Join a PHP user group in person or online,
     and PHP TestFest will show you how.
@@ -14,6 +13,7 @@ keywords:
   - PHP core contributor
   - testing
   - prizes
+lang: pt
 ---
 
 <section id="banner">
@@ -24,7 +24,7 @@ keywords:
         </header>
         <p>Have you ever wanted to contribute to <a href="https://php.net">PHP</a> but have been afraid that your <em>C</em> skills aren&rsquo;t up for the challenge? Well, have no fear! If you know PHP, you can contribute by writing tests. Through your <a href="/groups/2017/">local user group</a>, PHP TestFest will show you how.</p>
         <ul class="actions">
-            <li><a href="/start/" class="button big">Learn More</a></li>
+            <li><a href="start/" class="button big">Learn More</a></li>
         </ul>
     </div>
     <span class="image object">
@@ -42,7 +42,7 @@ keywords:
             <div class="content">
                 <h3>Participating groups</h3>
                 <p>Find a local group participating in PHP TestFest, or add your group to the list.</p>
-                <p><a href="/groups/{{ site.time | date: '%Y' }}" class="button">Find a group</a></p>
+                <p><a href="groups/{{ site.time | date: '%Y' }}" class="button">Find a group</a></p>
             </div>
         </article>
         <article>
@@ -50,7 +50,7 @@ keywords:
             <div class="content">
                 <h3>Lead an event</h3>
                 <p>Interested in leading your group to participate in PHP TestFest? Learn how to organize an event.</p>
-                <p><a href="/lead/" class="button">Organize a TestFest</a></p>
+                <p><a href="lead/" class="button">Organize a TestFest</a></p>
             </div>
         </article>
         <article>
@@ -58,7 +58,7 @@ keywords:
             <div class="content">
                 <h3>Be a mentor</h3>
                 <p>Participating groups need mentors to run successful PHP TestFest events. Find out how you can help and add your name to the list.</p>
-                <p><a href="/mentors/" class="button">Mentor Others</a></p>
+                <p><a href="mentors/" class="button">Mentor Others</a></p>
             </div>
         </article>
         <article>
@@ -66,13 +66,13 @@ keywords:
             <div class="content">
                 <h3>Learn to write phpt tests</h3>
                 <p>Become a core PHP language contributor by writing <em>phpt</em> tests. These tutorials show you how.</p>
-                <p><a href="/tutorials/" class="button">Follow the Tutorials</a></p>
+                <p><a href="tutorials/" class="button">Follow the Tutorials</a></p>
             </div>
         </article>
     </div>
 </section>
 
-{% assign tutorials = site.tutorials | sort: 'date' %}
+{% assign tutorials = site.tutorials | where:'lang',  page.lang | sort: 'date' %}
 
 <section>
     <header class="major">
@@ -86,7 +86,7 @@ keywords:
                 <img class="home" src="{{ tutorial.image.url }}" alt="{{ tutorial.image.alt }}">
             </a>
             {% else %}
-            <a href="{{ tutorial.url }}" class="image">
+            <a href="{{ page.lang }}/{{ tutorial.url }}" class="image">
                 <img src="/theme-example/images/pic01.jpg" alt="">
             </a>
             {% endif %}

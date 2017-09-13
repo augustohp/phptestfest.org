@@ -64,6 +64,11 @@
                         {% assign link = item[1] %}
                             <li><a href="{{ link.url }}" class="icon {{ link.icon }}"><span class="label">{{ link.name }}</span></a></li>
                         {% endfor %}
+                        {% if page.lang and page.lang != "pt" %}
+                            <li><a href="/pt/index.html">PT</a></li>
+                        {% else %}
+                            <li><a href="/index.html">EN</a></li>
+                        {% endif %}
                         </ul>
                     </header>
 
