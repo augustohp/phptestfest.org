@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Be a Mentor
-permalink: mentors/index.html
+title: Seja um mentor
+permalink: pt/mentors/index.html
 wooble:
-    message: "Sign up to mentor a group!"
+    message: "Mentore um grupo!"
     class: right
 summary: >
-    In the very near future, this page will explain what it means to be a PHP TestFest mentor. Check back soon!
+    Em um futuro próximo, esta página irá explicar o que significa ser um mentor do PHP TestFest. Veja em breve!
 ---
 
-In the very near future, this page will explain what it means to be a PHP TestFest mentor. Check back soon!
+Em um futuro próximo, esta página irá explicar o que significa ser um mentor do PHP TestFest. Veja em breve!
 
 ---
 {:.major}
 
-Click on a year to see what mentors helped with the PHP TestFest that year.
+Clique nos anos para ver como mentores ajudaram no PHP TestFest naquele ano.
 
 {% for year in site.mentors %}
 * [{{ year.title }}]({{ year.url }})

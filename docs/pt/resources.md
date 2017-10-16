@@ -1,12 +1,12 @@
 ---
 layout: page
-title: More Resources
-permalink: resources/index.html
+title: Mais informações
+permalink: pt/resources/index.html
 summary: >
-    Here are some links to helpful resources on writing and contributing phpt tests for the PHP programming language.
+    Aqui estão alguns links úteis de informações sobre como escrever e contribuir com testes phpt.
 ---
 
-Here are some links to helpful resources on writing and contributing phpt tests for the PHP programming language.
+Aqui estão alguns links úteis de informações sobre como escrever e contribuir com testes phpt.
 
 ---
 {:.major}

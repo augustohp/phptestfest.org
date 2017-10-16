@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Participating Groups
-permalink: groups/index.html
+title: Participando de Grupos
+permalink: pt/groups/index.html
 ---
 
-Click on a year to see what groups participated in the PHP TestFest that year.
+Clique em um ano para ver quais grupos participaram do PHP TestFest naquele ano.
 
 {% for year in site.groups %}
 * [{{ year.title }}]({{ year.url }})

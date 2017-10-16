@@ -1,29 +1,29 @@
 ---
 layout: page
-title: Organize a PHP TestFest Event
-permalink: lead/index.html
+title: Organize um evento PHP TestFest
+permalink: pt/lead/index.html
 wooble:
-    message: "Organize an event!"
+    message: "Organize um evento!"
     class: right
 summary: >
-    What are the important things you shouldn't miss when you want to organize a TestFest-Event. This is a "work-in-progress" and if you feel something is missing, open a PullRequest or discuss it via one of the channels!
+    Quais são os pontos importantes e que você não deve esquecer ao organizar um evento TestFest. Está "em andamento" e, se você sentir falta de algo, abra um PullRequest ou discuta sobre o assunto em um dos canais de comunicação!
 ---
 
-What are the important things you shouldn't miss when you want to organize a TestFest-Event. This is a "work-in-progress" and if you feel something is missing, open a PullRequest or discuss it via one of the channels!
+Quais são os pontos importantes e que você não deve esquecer ao organizar um evento TestFest. Está "em andamento" e, se você sentir falta de algo, abra um PullRequest ou discuta sobre o assunto em um dos canais de comunicação!
 
 ---
 {:.major}
 
-# Organize an Event
+# Organize um Evento
 
-## Prerequisites
+## Pré-requisitos
 
-* A location with WiFi and some tables
-* Attendees should bring their Laptops (or Desktops and Monitor and Cables and keyboard and Mouse and … --- Well, a Laptop is easier)
-* Everyone will need a working environment to write tests in. Have a look at the [resources page](/resources/).
+* Um local com WiFi e algumas mesas
+* Os participantes devem levar seus notebooks (ou Desktops e monitor, cabos, teclado mouse e... --- Bom, um notebook é mais prático)
+* Todos irão precisar de um ambiente de trabalho para escrever os testes. Então dê uma olhada [aqui](/pt/resources).
 
-## On the event
+## Durante o evento
 
-* Gather, decide whether your group wants to write tests for one specific extension/package/function or each attendee srites tests for whatever they feel comfortable with
-* Write tests
-* Commit the tests.
+* Reúnam-se e decidam se o grupo quer escrever testes específicos para uma extensão, pacote ou função ou se cada participante quer escrever testes para o que se julgarem confortáveis
+* Escreva os testes
+* _Commit_ os testes
